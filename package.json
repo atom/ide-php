@@ -1,0 +1,57 @@
+{
+  "name": "languageserver-php",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "Provide PHP language support via felixbecker PHP Language Server",
+  "repository": "https://github.com/atom/languageserver-php",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.13.0"
+  },
+  "activationHooks": [
+    "language-php:grammar-used"
+  ],
+  "dependencies": {
+    "atom-languageclient": "git://github.com/atom/atom-languageclient.git",
+    "vscode-jsonrpc": "^3.0.3"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    },
+    "nuclide-outline-view": {
+      "versions": {
+        "0.0.0": "provideOutlines"
+      }
+    },
+    "nuclide-definition-provider": {
+      "versions": {
+        "0.0.0": "provideDefinitions"
+      }
+    },
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "provideHyperclick"
+      }
+    },
+    "nuclide-find-references.provider": {
+      "versions": {
+        "0.0.0": "provideFindReferences"
+      }
+    }
+  }
+}
