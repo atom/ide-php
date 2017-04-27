@@ -6,14 +6,12 @@
   "repository": "https://github.com/atom/languageserver-php",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.13.0"
+    "atom": ">=1.17.0"
   },
-  "activationHooks": [
-    "language-php:grammar-used"
-  ],
+  "atomTestRunner": "./test/runner",
   "dependencies": {
     "atom-languageclient": "git://github.com/atom/atom-languageclient.git",
-    "vscode-jsonrpc": "^3.0.3"
+    "vscode-jsonrpc": "^3.2.0"
   },
   "consumedServices": {
     "status-bar": {
