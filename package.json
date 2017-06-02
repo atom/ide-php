@@ -10,7 +10,7 @@
   },
   "atomTestRunner": "./test/runner",
   "dependencies": {
-    "atom-languageclient": "git://github.com/atom/atom-languageclient.git",
+    "atom-languageclient": "^0.1.0",
     "vscode-jsonrpc": "^3.2.0"
   },
   "consumedServices": {
@@ -44,11 +44,6 @@
     "nuclide-definition-provider": {
       "versions": {
         "0.0.0": "provideDefinitions"
-      }
-    },
-    "hyperclick.provider": {
-      "versions": {
-        "0.0.0": "provideHyperclick"
       }
     },
     "nuclide-find-references.provider": {
