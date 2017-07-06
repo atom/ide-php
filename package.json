@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "PHP language support for Atom-IDE",
-  "repository": "https://github.com/atom/languageserver-php",
+  "repository": "https://github.com/atom/ide-php",
   "license": "MIT",
   "engines": {
     "atom": ">=1.17.0"
