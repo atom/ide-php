@@ -1,8 +1,8 @@
 {
-  "name": "languageserver-php",
+  "name": "ide-php",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "Provide PHP language support via felixbecker PHP Language Server",
+  "description": "PHP language support for Atom-IDE",
   "repository": "https://github.com/atom/languageserver-php",
   "license": "MIT",
   "engines": {
