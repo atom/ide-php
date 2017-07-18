@@ -1,5 +1,5 @@
 # IDE-PHP package
-[![macOS Build Status](https://travis-ci.org/atom/ide-php.svg?branch=master)](https://travis-ci.org/atom/ide-php) [![Windows Build Status](https://ci.appveyor.com/api/projects/ide-php/settings/branch/master?svg=true)](https://ci.appveyor.com/project/Atom/ide-php/branch/master) [![Dependency Status](https://david-dm.org/atom/ide-php.svg)](https://david-dm.org/atom/ide-php)
+[![macOS Build Status](https://travis-ci.org/atom/ide-php.svg?branch=master)](https://travis-ci.org/atom/ide-php) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/99y003ssr76ovd17?svg=true)](https://ci.appveyor.com/project/Atom/ide-php/branch/master) [![Dependency Status](https://david-dm.org/atom/ide-php.svg)](https://david-dm.org/atom/ide-php)
 
 PHP language support for Atom-IDE, powered by [FelixFBeckers PHP Language Server](https://github.com/felixfbecker/php-language-server).
 
