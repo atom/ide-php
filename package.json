@@ -13,6 +13,9 @@
     "atom-languageclient": "^0.1.0",
     "vscode-jsonrpc": "^3.2.0"
   },
+  "enhancedScopes": [
+    "text.html.php",
+  ],
   "consumedServices": {
     "linter-indie": {
       "versions": {
