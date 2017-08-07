@@ -10,8 +10,7 @@
   },
   "atomTestRunner": "./test/runner",
   "dependencies": {
-    "atom-languageclient": "^0.1.4",
-    "vscode-jsonrpc": "^3.3.1"
+    "atom-languageclient": "^0.1.4"
   },
   "enhancedScopes": [
     "text.html.php",
