@@ -10,7 +10,7 @@
   },
   "atomTestRunner": "./test/runner",
   "dependencies": {
-    "atom-languageclient": "^0.1.4"
+    "atom-languageclient": "^0.2.0"
   },
   "enhancedScopes": [
     "text.html.php",
