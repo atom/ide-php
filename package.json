@@ -10,8 +10,8 @@
   },
   "atomTestRunner": "./test/runner",
   "dependencies": {
-    "atom-languageclient": "^0.1.0",
-    "vscode-jsonrpc": "^3.2.0"
+    "atom-languageclient": "^0.1.4",
+    "vscode-jsonrpc": "^3.3.1"
   },
   "enhancedScopes": [
     "text.html.php",
@@ -27,9 +27,9 @@
         "^1.0.0": "consumeStatusBar"
       }
     },
-    "nuclide-datatip.provider": {
+    "datatip": {
       "versions": {
-        "0.0.0": "consumeDatatip"
+        "0.1.0": "consumeDatatip"
       }
     }
   },
@@ -39,19 +39,24 @@
         "2.0.0": "provideAutocomplete"
       }
     },
-    "nuclide-outline-view": {
+    "nuclide-code-format.provider": {
       "versions": {
-        "0.0.0": "provideOutlines"
+        "0.0.0": "provideCodeFormat"
       }
     },
-    "nuclide-definition-provider": {
+    "definitions": {
       "versions": {
-        "0.0.0": "provideDefinitions"
+        "0.1.0": "provideDefinitions"
       }
     },
-    "nuclide-find-references.provider": {
+    "find-references": {
       "versions": {
-        "0.0.0": "provideFindReferences"
+        "0.1.0": "provideFindReferences"
+      }
+    },
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlines"
       }
     }
   }
