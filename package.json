@@ -6,7 +6,7 @@
   "repository": "https://github.com/atom/ide-php",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.18.0"
+    "atom": ">=1.19.0"
   },
   "configSchema": {
     "phpPath": {
@@ -18,7 +18,7 @@
   },
   "atomTestRunner": "./test/runner",
   "dependencies": {
-    "atom-languageclient": "^0.2.0"
+    "atom-languageclient": "^0.4.0"
   },
   "enhancedScopes": [
     "text.html.php"
