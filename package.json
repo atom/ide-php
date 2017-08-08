@@ -38,9 +38,9 @@
         "2.0.0": "provideAutocomplete"
       }
     },
-    "nuclide-code-format.provider": {
+    "code-format.range": {
       "versions": {
-        "0.0.0": "provideCodeFormat"
+        "0.1.0": "provideCodeFormat"
       }
     },
     "definitions": {
