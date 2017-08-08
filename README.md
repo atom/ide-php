@@ -10,7 +10,7 @@ PHP language support for Atom-IDE, powered by [FelixFBeckers PHP Language Server
 You will need to clone this repo and make sure that you have the [PHP runtime v7](http://php.net/downloads.php) or later installed as well as the [PHP Composer](https://getcomposer.org/download/) dependency management tool - both should be in your path.
 
 1. `apm i`
-2. `composer`
+2. `composer install`
 
 This will populate the 'vendor' folder with the actual PHP language server necessary for this package to work.
 
