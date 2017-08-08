@@ -8,12 +8,20 @@
   "engines": {
     "atom": ">=1.18.0"
   },
+  "configSchema": {
+    "phpPath": {
+      "title": "PHP Path",
+      "type": "string",
+      "default": "",
+      "description": "Absolute path to PHP 7 folder used to launch the PHP language server."
+    }
+  },
   "atomTestRunner": "./test/runner",
   "dependencies": {
     "atom-languageclient": "^0.2.0"
   },
   "enhancedScopes": [
-    "text.html.php",
+    "text.html.php"
   ],
   "consumedServices": {
     "linter-indie": {
