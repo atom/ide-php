@@ -3,6 +3,8 @@
 
 PHP language support for Atom-IDE, powered by [FelixFBeckers PHP Language Server](https://github.com/felixfbecker/php-language-server).
 
+![Screen shot of IDE-PHP](https://user-images.githubusercontent.com/118951/30307874-5a0b03d6-9736-11e7-84d1-55eafe784cda.png)
+
 ## Early access
 
 This package is currently an early access release.  You should also install the [atom-ide-ui](https://atom.io/packages/atom-ide-ui) package to expose the functionality within Atom.
