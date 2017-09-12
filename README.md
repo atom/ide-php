@@ -9,17 +9,6 @@ PHP language support for Atom-IDE, powered by [FelixFBeckers PHP Language Server
 
 This package is currently an early access release.  You should also install the [atom-ide-ui](https://atom.io/packages/atom-ide-ui) package to expose the functionality within Atom.
 
-## Using
-
-You will need to clone this repo and make sure that you have the [PHP runtime v7](http://php.net/downloads.php) or later installed as well as the [PHP Composer](https://getcomposer.org/download/) dependency management tool - both should be in your path.
-
-1. `apm i`
-2. `composer install`
-
-This will populate the 'vendor' folder with the actual PHP language server necessary for this package to work.
-
-Release versions will look at bundling the vendor folder in order to make this easier to use.
-
 ## Contributing
 Always feel free to help out!  Whether it's [filing bugs and feature requests](https://github.com/atom/languageserver-php/issues/new) or working on some of the [open issues](https://github.com/atom/languageserver-php/issues), Atom's [contributing guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md) will help get you started while the [guide for contributing to packages](https://github.com/atom/atom/blob/master/docs/contributing-to-packages.md) has some extra information.
 
