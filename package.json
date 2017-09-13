@@ -14,6 +14,12 @@
       "type": "string",
       "default": "",
       "description": "Absolute path to PHP 7 folder used to launch the PHP language server."
+    },
+    "memoryLimit": {
+      "title": "Memory Limit",
+      "type": "string",
+      "default": "-1",
+      "description": "The memory limit of the php language server. [Number][K|M|G]. Use '-1' to allow unlimited use of the RAM(default)."
     }
   },
   "atomTestRunner": "./test/runner",
