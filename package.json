@@ -19,12 +19,12 @@
       "title": "Memory Limit",
       "type": "string",
       "default": "-1",
-      "description": "The memory limit of the php language server. [Number][K|M|G]. Use '-1' to allow unlimited use of the RAM(default)."
+      "description": "Maximum amount of memory the PHP language server can use. [Number][K|M|G]. Use '-1' to allow unlimited RAM use."
     }
   },
   "atomTestRunner": "./test/runner",
   "dependencies": {
-    "atom-languageclient": "^0.6.1",
+    "atom-languageclient": "^0.6.2",
     "decompress": "^4.2.0"
   },
   "enhancedScopes": [
