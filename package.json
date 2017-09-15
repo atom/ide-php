@@ -1,7 +1,7 @@
 {
   "name": "ide-php",
   "main": "./lib/main",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "PHP language support for Atom-IDE",
   "repository": "https://github.com/atom/ide-php",
   "license": "MIT",
@@ -24,7 +24,11 @@
     "connectionType": {
       "title": "Connection Type",
       "type": "string",
-      "enum": [ "auto", "socket", "stdio" ],
+      "enum": [
+        "auto",
+        "socket",
+        "stdio"
+      ],
       "default": "auto",
       "description": "The connection type for communicating with the local PHP language server. 'auto' will use 'socket' on Windows, 'stdio' on other platforms."
     }
