@@ -19,7 +19,14 @@
       "title": "Memory Limit",
       "type": "string",
       "default": "-1",
-      "description": "Maximum amount of memory the PHP language server can use. [Number][K|M|G]. Use '-1' to allow unlimited RAM use."
+      "description": "Maximum amount of memory the local PHP language server can use. [Number][K|M|G]. Use '-1' to allow unlimited RAM use."
+    },
+    "connectionType": {
+      "title": "Connection Type",
+      "type": "string",
+      "enum": [ "auto", "socket", "stdio" ],
+      "default": "auto",
+      "description": "The connection type for communicating with the local PHP language server. 'auto' will use 'socket' on Windows, 'stdio' on other platforms."
     }
   },
   "atomTestRunner": "./test/runner",
