@@ -13,7 +13,7 @@
       "title": "PHP Path",
       "type": "string",
       "default": "",
-      "description": "Absolute path to the folder containing your PHP 7 binary (e.g., /usr/local/bin if your php is at /usr/local/bin/php). This is used to launch the PHP language server."
+      "description": "Absolute path to your PHP 7 binary (e.g. `/usr/local/bin/php`) if not in PATH or PHP_HOME. This is used to launch the PHP language server."
     },
     "memoryLimit": {
       "title": "Memory Limit",
