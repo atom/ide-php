@@ -1,3 +1,8 @@
+## v0.6.9
+
+- Fix PHP version detection on some systems where stdout delayed
+- Address possible async issues in install that resulted in console warnings
+
 ## v0.6.8
 
 - Setting for PHP path now points to the PHP binary itself not the folder
