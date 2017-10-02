@@ -1,6 +1,4 @@
 {
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "felixfbecker/language-server": "^4.6.1"
     },
@@ -8,5 +6,10 @@
         "parse-stubs": "LanguageServer\\ComposerScripts::parseStubs",
         "post-update-cmd": "@parse-stubs",
         "post-install-cmd": "@parse-stubs"
-    }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
