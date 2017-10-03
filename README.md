@@ -3,7 +3,7 @@
 
 PHP language support for Atom-IDE, powered by [FelixFBeckers PHP Language Server](https://github.com/felixfbecker/php-language-server).
 
-**Requires [Atom 1.21](https://atom.io/beta) - currently in beta** and a PHP 7.1 runtime installed on your system.
+Requires [Atom 1.21](https://atom.io/) and a PHP 7.1 runtime installed on your system.
 
 ![Screen shot of IDE-PHP](https://user-images.githubusercontent.com/118951/30307874-5a0b03d6-9736-11e7-84d1-55eafe784cda.png)
 
