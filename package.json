@@ -33,6 +33,10 @@
       "description": "The connection type for communicating with the local PHP language server. 'auto' will use 'socket' on Windows, 'stdio' on other platforms."
     }
   },
+  "scripts": {
+    "server-install": "rm -rf vendor && composer install --prefer-dist --no-dev && composer dump-autoload --optimize",
+    "server-package": "7z a temp.tar vendor\\* && 7z a php-ls-x.y.z.tar.gz temp.tar && rm -f temp.tar"
+  },
   "atomTestRunner": "./test/runner",
   "dependencies": {
     "atom-languageclient": "^0.6.4",
