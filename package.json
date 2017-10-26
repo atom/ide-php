@@ -47,9 +47,9 @@
         "2.0.0": "consumeLinterV2"
       }
     },
-    "status-bar": {
+    "atom-ide-busy-signal": {
       "versions": {
-        "^1.0.0": "consumeStatusBar"
+        "0.1.0": "consumeBusySignal"
       }
     },
     "datatip": {
