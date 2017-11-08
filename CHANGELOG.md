@@ -1,3 +1,9 @@
+## v0.6.10
+
+- Use busy signal instead of status bar for installation progress
+- Composer script added to package.json for ease of preparing new builds
+- Update README to remove references to beta
+
 ## v0.6.9
 
 - Fix PHP version detection on some systems where stdout delayed
