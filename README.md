@@ -14,7 +14,6 @@ This package is currently an early access release.  You should also install the 
 ## Features
 
 * Auto completion
-* Code format
 * Diagnostics (errors & warnings)
 * Document outline
 * Find references
