@@ -35,7 +35,7 @@
   },
   "scripts": {
     "server-install": "rm -rf vendor && composer install --prefer-dist --no-dev && composer dump-autoload --optimize",
-    "server-package": "7z a temp.tar vendor\\* && 7z a php-ls-x.y.z.tar.gz temp.tar && rm -f temp.tar"
+    "server-package": "7z a temp.tar ./vendor/* && 7z a php-ls-x.y.z.tar.gz temp.tar && rm -f temp.tar"
   },
   "atomTestRunner": "./test/runner",
   "dependencies": {
