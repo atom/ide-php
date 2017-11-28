@@ -1,9 +1,13 @@
-## v0.7.0
+## v0.7.1
 
 - Update atom-languageclient to 0.7.0 which includes
   - Sorting autocomplete results
   - Snippet completion type items
   - Busy signals for startup and shutdown
+- Fixes broken signals in prior v0.7.0 release
+
+## v0.7.0
+
 - Update PHP language server to 5.1.0
 
 ## v0.6.10
