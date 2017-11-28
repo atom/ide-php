@@ -1,3 +1,7 @@
+## v0.7.3
+
+- Repackage 5.1.0 language server without prefix (script issue on macOS)
+
 ## v0.7.2
 
 - Fix download URL for 5.1.0 language server
