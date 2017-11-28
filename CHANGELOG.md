@@ -1,3 +1,7 @@
+## v0.7.2
+
+- Fix download URL for 5.1.0 language server
+
 ## v0.7.1
 
 - Update atom-languageclient to 0.7.0 which includes
