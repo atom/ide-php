@@ -1,3 +1,7 @@
+## v0.7.4
+
+- Language server updated to 5.2.0 which includes Signature Help and fixes (thanks @vinkla)
+
 ## v0.7.3
 
 - Repackage 5.1.0 language server without prefix (script issue on macOS)
