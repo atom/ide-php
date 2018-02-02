@@ -1,3 +1,8 @@
+## v0.7.5
+
+- Language server updated to 5.2.0 which includes Signature Help and fixes (thanks @vinkla)
+- Update atom-languageclient to 0.8.3 which includes autocomplete and other fixes
+
 ## v0.7.4
 
 - Language server updated to 5.2.0 which includes Signature Help and fixes (thanks @vinkla)
