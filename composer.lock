@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3340fa5a7198a070fa0f865f55e45fcd",
+    "content-hash": "9c5cf918aab9c6262d6c4d9a4fa9c844",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -305,16 +305,16 @@
         },
         {
             "name": "felixfbecker/language-server",
-            "version": "v5.3.5",
+            "version": "v5.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/felixfbecker/php-language-server.git",
-                "reference": "d9bc0b0285db5aecc7fdd3b2e64ce28a9a2c0fb8"
+                "reference": "a8f60c9cf69f9c28b5c4dfd6a2313b9158302003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/felixfbecker/php-language-server/zipball/d9bc0b0285db5aecc7fdd3b2e64ce28a9a2c0fb8",
-                "reference": "d9bc0b0285db5aecc7fdd3b2e64ce28a9a2c0fb8",
+                "url": "https://api.github.com/repos/felixfbecker/php-language-server/zipball/a8f60c9cf69f9c28b5c4dfd6a2313b9158302003",
+                "reference": "a8f60c9cf69f9c28b5c4dfd6a2313b9158302003",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "studio",
                 "visual"
             ],
-            "time": "2018-02-02T20:09:25+00:00"
+            "time": "2018-02-07T19:55:25+00:00"
         },
         {
             "name": "jetbrains/phpstorm-stubs",
