@@ -1,3 +1,7 @@
+## v0.7.6
+
+- Language server updated to 5.3.6 which includes completion and DefinitionResolver fixes (thanks @vinkla)
+
 ## v0.7.5
 
 - Language server updated to 5.2.0 which includes Signature Help and fixes (thanks @vinkla)
