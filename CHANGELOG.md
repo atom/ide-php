@@ -1,3 +1,7 @@
+## v0.7.7
+
+- Now checks for minimum version of PHP 7.1 which is required by language server
+
 ## v0.7.6
 
 - Language server updated to 5.3.6 which includes completion and DefinitionResolver fixes (thanks @vinkla)
