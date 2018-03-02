@@ -1,3 +1,8 @@
+## v0.7.8
+
+- Language server updated to 5.3.7
+- Now capable of running on PHP 7.0 again
+
 ## v0.7.7
 
 - Now checks for minimum version of PHP 7.1 which is required by language server
