@@ -8,5 +8,10 @@
         "parse-stubs": "LanguageServer\\ComposerScripts::parseStubs",
         "post-update-cmd": "@parse-stubs",
         "post-install-cmd": "@parse-stubs"
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
     }
 }
