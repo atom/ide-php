@@ -1,3 +1,7 @@
+## v0.7.9
+
+- Update atom-languageclient to 0.9.2 which includes better autocomplete
+
 ## v0.7.8
 
 - Language server updated to 5.3.7
