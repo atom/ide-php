@@ -1,7 +1,10 @@
+## v0.7.11
+
+- Language server updated to 5.4.0 which add pseudo-keywords like int, bool, strict_types to completion
+
 ## v0.7.10
 
 - Added option to change AutoComplete suggestions pritority (thanks @martinfojtik)
-- Language server updated to 5.4.0 which add pseudo-keywords like int, bool, strict_types to completion
 
 ## v0.7.9
 
