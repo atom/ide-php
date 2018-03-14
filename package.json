@@ -31,6 +31,16 @@
       ],
       "default": "auto",
       "description": "The connection type for communicating with the local PHP language server. 'auto' will use 'socket' on Windows, 'stdio' on other platforms."
+    },
+    "autocompletePriority": {
+      "title": "AutoComplete suggestion pritority",
+      "type": "string",
+      "enum": [
+        "default",
+        "lower"
+      ],
+      "default": "default",
+      "description": "Set 'lower' if you want to see LSP suggestions under the suggestions from the Autocomplete package. Restart required."
     }
   },
   "scripts": {
