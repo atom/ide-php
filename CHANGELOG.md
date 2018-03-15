@@ -1,6 +1,10 @@
+## v0.7.13
+
+- Update atom-languageclient to 0.9.4 to allow autocomplete on `->` etc. thanks @pelallemant
+
 ## v0.7.12
 
-- Update atom-languageclient to 0.9.3 to allow autocomplete on `->` etc. thanks @pelallemant
+- Update atom-languageclient to 0.9.3
 
 ## v0.7.11
 

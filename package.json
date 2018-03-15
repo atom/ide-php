@@ -49,7 +49,7 @@
   },
   "atomTestRunner": "./test/runner",
   "dependencies": {
-    "atom-languageclient": "0.9.3",
+    "atom-languageclient": "0.9.4",
     "decompress": "^4.2.0"
   },
   "enhancedScopes": [
