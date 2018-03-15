@@ -1,3 +1,7 @@
+## v0.7.12
+
+- Update atom-languageclient to 0.9.3 to allow autocomplete on `->` etc. thanks @pelallemant
+
 ## v0.7.11
 
 - Language server updated to 5.4.0 which add pseudo-keywords like int, bool, strict_types to completion
