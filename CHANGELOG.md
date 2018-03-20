@@ -1,3 +1,7 @@
+## v0.7.14
+
+- Bump autocomplete provider model to 4.0.0 so `Class1::` etc. works
+
 ## v0.7.13
 
 - Update atom-languageclient to 0.9.4 to allow autocomplete on `->` etc. thanks @pelallemant
