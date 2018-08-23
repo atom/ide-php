@@ -1,6 +1,6 @@
 ## v0.7.15
 
-- Update language server updated to 5.4.2
+- Update language server to 5.4.2
 
 ## v0.7.14
 
