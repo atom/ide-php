@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "b18cc4845a7c5ea61a87648ace0e5d30",
     "packages": [
         {
             "name": "composer/xdebug-handler",
-            "version": "1.0.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "1852e549ad0d6f2910f89c27fec833dda1b25b4a"
+                "reference": "e1809da56ce1bd1b547a752936817341ac244d8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/1852e549ad0d6f2910f89c27fec833dda1b25b4a",
-                "reference": "1852e549ad0d6f2910f89c27fec833dda1b25b4a",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/e1809da56ce1bd1b547a752936817341ac244d8e",
+                "reference": "e1809da56ce1bd1b547a752936817341ac244d8e",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "Xdebug",
                 "performance"
             ],
-            "time": "2018-03-08T13:09:50+00:00"
+            "time": "2018-08-16T10:54:23+00:00"
         },
         {
             "name": "felixfbecker/advanced-json-rpc",
@@ -93,16 +93,16 @@
         },
         {
             "name": "felixfbecker/language-server",
-            "version": "v5.4.0",
+            "version": "v5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/felixfbecker/php-language-server.git",
-                "reference": "02b7d2fdb6ec81badef53668d3693412bd00b748"
+                "reference": "3931c8848ff4b5696501d26cad165520cca813a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/felixfbecker/php-language-server/zipball/02b7d2fdb6ec81badef53668d3693412bd00b748",
-                "reference": "02b7d2fdb6ec81badef53668d3693412bd00b748",
+                "url": "https://api.github.com/repos/felixfbecker/php-language-server/zipball/3931c8848ff4b5696501d26cad165520cca813a8",
+                "reference": "3931c8848ff4b5696501d26cad165520cca813a8",
                 "shasum": ""
             },
             "require": {
@@ -160,7 +160,7 @@
                 "studio",
                 "visual"
             ],
-            "time": "2018-03-11T20:50:12+00:00"
+            "time": "2018-08-22T18:48:14+00:00"
         },
         {
             "name": "jetbrains/phpstorm-stubs",
@@ -168,13 +168,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JetBrains/phpstorm-stubs.git",
-                "reference": "d956397abdbc9f1c8f45b065420a2491b3295470"
+                "reference": "435257758651096093209ff56fa0ae1a6e63ec56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JetBrains/phpstorm-stubs/zipball/d956397abdbc9f1c8f45b065420a2491b3295470",
-                "reference": "d956397abdbc9f1c8f45b065420a2491b3295470",
+                "url": "https://api.github.com/repos/JetBrains/phpstorm-stubs/zipball/435257758651096093209ff56fa0ae1a6e63ec56",
+                "reference": "435257758651096093209ff56fa0ae1a6e63ec56",
                 "shasum": ""
+            },
+            "require-dev": {
+                "nikic/php-parser": "v4.0.1",
+                "phpdocumentor/reflection-docblock": "^4.3",
+                "phpunit/phpunit": "7.1.4"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -193,20 +198,20 @@
                 "stubs",
                 "type"
             ],
-            "time": "2018-03-14T13:57:27+00:00"
+            "time": "2018-08-13T13:39:18+00:00"
         },
         {
             "name": "microsoft/tolerant-php-parser",
-            "version": "v0.0.9",
+            "version": "v0.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Microsoft/tolerant-php-parser.git",
-                "reference": "59351ce2a6b32c6cafc667dc20a48da36f38a482"
+                "reference": "89ade271e639e0612deeccb0555f13c2224ecf84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Microsoft/tolerant-php-parser/zipball/59351ce2a6b32c6cafc667dc20a48da36f38a482",
-                "reference": "59351ce2a6b32c6cafc667dc20a48da36f38a482",
+                "url": "https://api.github.com/repos/Microsoft/tolerant-php-parser/zipball/89ade271e639e0612deeccb0555f13c2224ecf84",
+                "reference": "89ade271e639e0612deeccb0555f13c2224ecf84",
                 "shasum": ""
             },
             "require": {
@@ -234,7 +239,7 @@
                 }
             ],
             "description": "Tolerant PHP-to-AST parser designed for IDE usage scenarios",
-            "time": "2018-02-14T18:39:41+00:00"
+            "time": "2018-08-07T04:52:21+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
