@@ -1,3 +1,7 @@
+## v0.7.15
+
+- Update language server updated to 5.4.2
+
 ## v0.7.14
 
 - Bump autocomplete provider model to 4.0.0 so `Class1::` etc. works
