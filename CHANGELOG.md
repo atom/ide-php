@@ -1,3 +1,8 @@
+## v0.7.18
+
+- Replace line-breaks in HTML description
+- Update atom-languageclient to 0.9.9
+
 ## v0.7.17
 
 - Update language server to 5.4.6
