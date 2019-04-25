@@ -7,9 +7,13 @@ Requires [Atom 1.21](https://atom.io/) and a PHP 7.0 runtime installed on your s
 
 ![Screen shot of IDE-PHP](https://user-images.githubusercontent.com/118951/30307874-5a0b03d6-9736-11e7-84d1-55eafe784cda.png)
 
-## Early access
+## Early Access
 
-This package is currently an early access release.  You should also install the [atom-ide-ui](https://atom.io/packages/atom-ide-ui) package to expose the functionality within Atom.
+This package is currently an early access release. To expose the functionality within Atom install the abandoned [`atom-ide-ui`](https://atom.io/packages/atom-ide-ui) package or the actively developed community packages:
+
+- [`atom-ide-datatip`](https://github.com/atom-ide-community/atom-ide-datatip#readme)
+- [`atom-ide-definitions`](https://github.com/atom-ide-community/atom-ide-definitions#readme)
+- [`atom-ide-signature-help`](https://github.com/atom-ide-community/atom-ide-signature-help#readme)
 
 ## Features
 
