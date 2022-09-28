@@ -1,4 +1,5 @@
-# IDE-PHP package
+##### Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
+ # IDE-PHP package
 [![CI](https://github.com/atom/language-sql/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/ide-php/actions/workflows/ci.yml)
 
 PHP language support for Atom-IDE, powered by [FelixFBeckers PHP Language Server](https://github.com/felixfbecker/php-language-server).
